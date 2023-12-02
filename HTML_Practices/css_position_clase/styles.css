@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    border:2px rgb(28, 135, 46) dotted;
+    display: inline-block;
+
+}
+.box{
+    display: inline-block;
+    background-color: slateblue;
+    width:100px;
+    height: 100px;
+}
+#two{
+    background-color: green;
+    position: relative; /*bottom-letf-right se usa en position != static*/
+    bottom: -100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+.three{
+    position:relative;
+    bottom: 25px;
+    left: 100px;
+    right: 50%;
+    top:50%;
+}

@@ -1,0 +1,9 @@
+.PRINCIPAL_CONTENIDO_PERROS{
+    background-color: rgb(3, 199, 94);
+    border-radius: 10em;
+}
+#PRINCIPAL_CONTENIDO_LISTA1{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 0 10em 0;
+}

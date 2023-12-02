@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: inherit;
+}
+/*
+1. estilos del navegador
+2. nuestros estilos
+3. !important (evitar)
+!important>inline>#id>.class>tag
+
+Descendente (Espacio):
+
+Sintaxis: A B
+Descripción: Selecciona todos los elementos B que son descendientes de A, sin importar el nivel de profundidad. Por ejemplo, div p seleccionará todos los elementos <p> que estén dentro de un elemento <div>, independientemente de si el <p> es un hijo directo o un nieto.
+Hijo Directo (>):
+
+Sintaxis: A > B
+Descripción: Selecciona todos los elementos B que son hijos directos de A. Por ejemplo, ul > li seleccionará solo los elementos <li> que son hijos directos de <ul>, pero no los <li> que están más profundamente anidados.
+Adyacente Hermano (+):
+
+Sintaxis: A + B
+Descripción: Selecciona el primer elemento B que es hermano adyacente directo de A. Esto significa que B sigue inmediatamente a A y ambos tienen el mismo elemento padre. Por ejemplo, h2 + p seleccionará el primer elemento <p> que sigue inmediatamente a un <h2>.
+Hermano General (~):
+Sintaxis: A ~ B
+Descripción: Selecciona todos los elementos B que son hermanos de A. A diferencia del combinador adyacente, este selecciona todos los B que siguen a A y comparten el mismo padre, no solo el primero. Por ejemplo, h2 ~ p seleccionará todos los elementos <p> que son hermanos de <h2> y vienen después de él.
+
+Medidas
+px,%,em,rm
+
+em:
+1em=16px
+
+
+rem:
+
+*/
