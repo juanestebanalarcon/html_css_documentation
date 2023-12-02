@@ -29,3 +29,7 @@
     right: 50%;
     top:50%;
 }
+/*
+Display: * block-element --> agrega un elemento debajo de otro
+         * inline --> elementos de lado horizontal
+*/
